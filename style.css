@@ -31,7 +31,7 @@ div{
 .arkansas     { top: 300px; left: 380px; }
 .colorado     { top: 230px; left: 250px; }
 .connecticut  { top: 185px; left: 555px; }
-.delaware     { top: 175px; left: 505px; }
+.delaware     { top: 220px; left: 540px; }
 .hawaii       { top: 400px; left: 240px; }
 .idaho        { top: 140px; left: 175px; }
 .indiana      { top: 230px; left: 430px; }
@@ -40,7 +40,7 @@ div{
 .kentucky     { top: 250px; left: 450px; }
 .louisiana    { top: 340px; left: 375px; }
 .maine        { top: 120px; left: 575px; }
-.maryland     { top: 180px; left: 500px; }
+.maryland     { top: 220px; left: 525px; }
 .massachusetts{ top: 170px; left: 580px; }
 .minnesota    { top: 140px; left: 365px; }
 .mississippi  { top: 320px; left: 410px; }
@@ -49,7 +49,7 @@ div{
 .nebraska     { top: 200px; left: 300px; }
 .nevada       { top: 220px; left: 140px; }
 .newhampshire { top: 155px; left: 560px; }
-.newjersey    { top: 165px; left: 505px; }
+.newjersey    { top: 195px; left: 542px; }
 .newmexico    { top: 280px; left: 250px; }
 .northcarolina{ top: 270px; left: 500px; }
 .northdakota  { top: 130px; left: 300px; }
@@ -65,57 +65,56 @@ div{
 .westvirginia { top: 235px; left: 485px; }
 .wisconsin    { top: 160px; left: 390px; }
 
-
-.texasInfo        { top: 240px; left: 290px; background-color: white; }
-.georgiaInfo      { top: 250px; left: 470px; background-color: white; }
-.floridaInfo      { top: 285px; left: 495px; background-color: white; }
-.californiaInfo   { top: 235px; left: 95px; background-color: white; }
-.newyorkInfo      { top: 160px; left: 515px; background-color: white; }
-.illinoisInfo     { top: 190px; left: 390px; background-color: white; }
-.washingtonInfo   { top: 95px;  left: 95px;  background-color: white; }
-.ohioInfo         { top: 180px; left: 450px; background-color: white; }
-.pennsylvaniaInfo { top: 165px; left: 485px; background-color: white; }
-.michiganInfo     { top: 150px; left: 430px; background-color: white; }
-.wyomingInfo      { top: 150px; left: 250px; background-color: white; }
-.alabamaInfo      { top: 245px; left: 445px; background-color: white; }
-.alaskaInfo       { top: 285px; left: 70px;  background-color: white; }
-.arizonaInfo      { top: 225px; left: 165px; background-color: white; }
-.arkansasInfo     { top: 220px; left: 360px; background-color: white; }
-.coloradoInfo     { top: 180px; left: 250px; background-color: white; }
-.connecticutInfo  { top: 155px; left: 525px; background-color: white; }
-.delawareInfo     { top: 175px; left: 505px; background-color: white; }
-.hawaiiInfo       { top: 315px; left: 140px; background-color: white; }
-.idahoInfo        { top: 120px; left: 165px; background-color: white; }
-.indianaInfo      { top: 185px; left: 420px; background-color: white; }
-.iowaInfo         { top: 160px; left: 360px; background-color: white; }
-.kansasInfo       { top: 190px; left: 310px; background-color: white; }
-.kentuckyInfo     { top: 200px; left: 440px; background-color: white; }
-.louisianaInfo    { top: 260px; left: 345px; background-color: white; }
-.maineInfo        { top: 110px; left: 545px; background-color: white; }
-.marylandInfo     { top: 180px; left: 500px; background-color: white; }
-.massachusettsInfo{ top: 140px; left: 530px; background-color: white; }
-.minnesotaInfo    { top: 120px; left: 365px; background-color: white; }
-.mississippiInfo  { top: 245px; left: 400px; background-color: white; }
-.missouriInfo     { top: 195px; left: 360px; background-color: white; }
-.montanaInfo      { top: 110px; left: 235px; background-color: white; }
-.nebraskaInfo     { top: 160px; left: 300px; background-color: white; }
-.nevadaInfo       { top: 170px; left: 140px; background-color: white; }
-.newhampshireInfo { top: 130px; left: 535px; background-color: white; }
-.newjerseyInfo    { top: 165px; left: 505px; background-color: white; }
-.newmexicoInfo    { top: 210px; left: 220px; background-color: white; }
-.northcarolinaInfo{ top: 300px; left: 490px; background-color: white; }
-.northdakotaInfo  { top: 100px; left: 300px; background-color: white; }
-.oklahomaInfo     { top: 215px; left: 315px; background-color: white; }
-.oregonInfo       { top: 120px; left: 120px; background-color: white; }
-.rhodeislandInfo  { top: 145px; left: 535px; background-color: white; }
-.southcarolinaInfo{ top: 240px; left: 470px; background-color: white; }
-.southdakotaInfo  { top: 130px; left: 305px; background-color: white; }
-.tennesseeInfo    { top: 215px; left: 430px; background-color: white; }
-.utahInfo         { top: 170px; left: 190px; background-color: white; }
-.vermontInfo      { top: 130px; left: 520px; background-color: white; }
-.virginiaInfo     { top: 210px; left: 480px; background-color: white; }
-.westvirginiaInfo { top: 195px; left: 465px; background-color: white; }
-.wisconsinInfo    { top: 135px; left: 390px; background-color: white; }
+.texasInfo        { top: 340px; left: 290px; background-color: white; }
+.georgiaInfo      { top: 300px; left: 470px; background-color: white; }
+.floridaInfo      { top: 350px; left: 495px; background-color: white; }
+.californiaInfo   { top: 235px; left: 95px;  background-color: white; }
+.newyorkInfo      { top: 170px; left: 535px; background-color: white; }
+.illinoisInfo     { top: 220px; left: 400px; background-color: white; }
+.washingtonInfo   { top: 120px; left: 130px; background-color: white; }
+.ohioInfo         { top: 210px; left: 460px; background-color: white; }
+.pennsylvaniaInfo { top: 205px; left: 500px; background-color: white; }
+.michiganInfo     { top: 180px; left: 440px; background-color: white; }
+.wyomingInfo      { top: 180px; left: 250px; background-color: white; }
+.alabamaInfo      { top: 325px; left: 445px; background-color: white; }
+.alaskaInfo       { top: 340px; left: 90px;  background-color: white; }
+.arizonaInfo      { top: 290px; left: 165px; background-color: white; }
+.arkansasInfo     { top: 300px; left: 380px; background-color: white; }
+.coloradoInfo     { top: 230px; left: 250px; background-color: white; }
+.connecticutInfo  { top: 185px; left: 555px; background-color: white; }
+.delawareInfo     { top: 220px; left: 540px; background-color: white; }
+.hawaiiInfo       { top: 400px; left: 240px; background-color: white; }
+.idahoInfo        { top: 140px; left: 175px; background-color: white; }
+.indianaInfo      { top: 230px; left: 430px; background-color: white; }
+.iowaInfo         { top: 200px; left: 360px; background-color: white; }
+.kansasInfo       { top: 240px; left: 310px; background-color: white; }
+.kentuckyInfo     { top: 250px; left: 450px; background-color: white; }
+.louisianaInfo    { top: 340px; left: 375px; background-color: white; }
+.maineInfo        { top: 120px; left: 575px; background-color: white; }
+.marylandInfo     { top: 220px; left: 525px; background-color: white; }
+.massachusettsInfo{ top: 170px; left: 580px; background-color: white; }
+.minnesotaInfo    { top: 140px; left: 365px; background-color: white; }
+.mississippiInfo  { top: 320px; left: 410px; background-color: white; }
+.missouriInfo     { top: 250px; left: 370px; background-color: white; }
+.montanaInfo      { top: 130px; left: 235px; background-color: white; }
+.nebraskaInfo     { top: 200px; left: 300px; background-color: white; }
+.nevadaInfo       { top: 220px; left: 140px; background-color: white; }
+.newhampshireInfo { top: 155px; left: 560px; background-color: white; }
+.newjerseyInfo    { top: 195px; left: 542px; background-color: white; }
+.newmexicoInfo    { top: 280px; left: 250px; background-color: white; }
+.northcarolinaInfo{ top: 270px; left: 500px; background-color: white; }
+.northdakotaInfo  { top: 130px; left: 300px; background-color: white; }
+.oklahomaInfo     { top: 280px; left: 315px; background-color: white; }
+.oregonInfo       { top: 160px; left: 120px; background-color: white; }
+.rhodeislandInfo  { top: 175px; left: 565px; background-color: white; }
+.southcarolinaInfo{ top: 290px; left: 490px; background-color: white; }
+.southdakotaInfo  { top: 160px; left: 305px; background-color: white; }
+.tennesseeInfo    { top: 275px; left: 430px; background-color: white; }
+.utahInfo         { top: 210px; left: 190px; background-color: white; }
+.vermontInfo      { top: 150px; left: 550px; background-color: white; }
+.virginiaInfo     { top: 245px; left: 510px; background-color: white; }
+.westvirginiaInfo { top: 235px; left: 485px; background-color: white; }
+.wisconsinInfo    { top: 160px; left: 390px; background-color: white; }
 
 .pin{
     position: absolute;
