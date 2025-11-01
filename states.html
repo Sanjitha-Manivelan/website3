@@ -7,12 +7,14 @@
         <title>Quiz Website</title>
         <link rel="stylesheet" href="navbar.css">
         <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="script.js" defer></script>
     </head>
     <body>
         <h1>States Review</h1>
         <nav class="navbar">
             <ul>
-                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="cities.html">Capitals Review</a></li>
                 <li><a href="states.html">States Review</a></li>
                 <li><a href="citiesQuiz.html">Capitals Quiz</a></li>
@@ -22,6 +24,109 @@
         <main>
             <h3>States Review</h3>
             <p>Review the states by using the map below!</p>
+            <div>
+                <img class="map" src="media/USMap.jpg">
+                <img class="pin texas" src="media/pin_marker.png">
+                <img class="pin georgia" src="media/pin_marker.png">
+                <img class="pin florida" src="media/pin_marker.png">
+                <img class="pin california" src="media/pin_marker.png">
+                <img class="pin newyork" src="media/pin_marker.png">
+                <img class="pin illinois" src="media/pin_marker.png">
+                <img class="pin washington" src="media/pin_marker.png">
+                <img class="pin ohio" src="media/pin_marker.png">
+                <img class="pin pennsylvania" src="media/pin_marker.png">
+                <img class="pin michigan" src="media/pin_marker.png">
+                <img class="pin wyoming" src="media/pin_marker.png">
+                <img class="pin alabama" src="media/pin_marker.png">
+                <img class="pin alaska" src="media/pin_marker.png">
+                <img class="pin arizona" src="media/pin_marker.png">
+                <img class="pin arkansas" src="media/pin_marker.png">
+                <img class="pin colorado" src="media/pin_marker.png">
+                <img class="pin connecticut" src="media/pin_marker.png">
+                <img class="pin delaware" src="media/pin_marker.png">
+                <img class="pin hawaii" src="media/pin_marker.png">
+                <img class="pin idaho" src="media/pin_marker.png">
+                <img class="pin indiana" src="media/pin_marker.png">
+                <img class="pin iowa" src="media/pin_marker.png">
+                <img class="pin kansas" src="media/pin_marker.png">
+                <img class="pin kentucky" src="media/pin_marker.png">
+                <img class="pin louisiana" src="media/pin_marker.png">
+                <img class="pin maine" src="media/pin_marker.png">
+                <img class="pin maryland" src="media/pin_marker.png">
+                <img class="pin massachusetts" src="media/pin_marker.png">
+                <img class="pin minnesota" src="media/pin_marker.png">
+                <img class="pin mississippi" src="media/pin_marker.png">
+                <img class="pin missouri" src="media/pin_marker.png">
+                <img class="pin montana" src="media/pin_marker.png">
+                <img class="pin nebraska" src="media/pin_marker.png">
+                <img class="pin nevada" src="media/pin_marker.png">
+                <img class="pin new hampshire" src="media/pin_marker.png">
+                <img class="pin new jersey" src="media/pin_marker.png">
+                <img class="pin new mexico" src="media/pin_marker.png">
+                <img class="pin northcarolina" src="media/pin_marker.png">
+                <img class="pin northdakota" src="media/pin_marker.png">
+                <img class="pin oklahoma" src="media/pin_marker.png">
+                <img class="pin oregon" src="media/pin_marker.png">
+                <img class="pin rhodeisland" src="media/pin_marker.png">
+                <img class="pin southcarolina" src="media/pin_marker.png">
+                <img class="pin southdakota" src="media/pin_marker.png">
+                <img class="pin tennessee" src="media/pin_marker.png">
+                <img class="pin utah" src="media/pin_marker.png">
+                <img class="pin vermont" src="media/pin_marker.png">
+                <img class="pin virginia" src="media/pin_marker.png">
+                <img class="pin westvirginia" src="media/pin_marker.png">
+                <img class="pin wisconsin" src="media/pin_marker.png">
+                <article class="georgiaInfo hidden">Georgia</article>
+                <article class="texasInfo hidden">Texas</article>
+                <article class="floridaInfo hidden">Florida</article>
+                <article class="californiaInfo hidden">California</article>
+                <article class="newyorkInfo hidden">New York</article>
+                <article class="illinoisInfo hidden">Illinois</article>
+                <article class="washingtonInfo hidden">Washington</article>
+                <article class="ohioInfo hidden">Ohio</article>
+                <article class="pennsylvaniaInfo hidden">Pennsylvania</article>
+                <article class="michiganInfo hidden">Michigan</article>
+                <article class="wyomingInfo hidden">Wyoming</article>
+                <article class="alabamaInfo hidden">Alabama</article>
+                <article class="alaskaInfo hidden">Alaska</article>
+                <article class="arizonaInfo hidden">Arizona</article>
+                <article class="arkansasInfo hidden">Arkansas</article>
+                <article class="coloradoInfo hidden">Colorado</article>
+                <article class="connecticutInfo hidden">Connecticut</article>
+                <article class="delawareInfo hidden">Delaware</article>
+                <article class="hawaiiInfo hidden">Hawaii</article>
+                <article class="idahoInfo hidden">Idaho</article>
+                <article class="indianaInfo hidden">Indiana</article>
+                <article class="iowaInfo hidden">Iowa</article>
+                <article class="kansasInfo hidden">Kansas</article>
+                <article class="kentuckyInfo hidden">Kentucky</article>
+                <article class="louisianaInfo hidden">Louisiana</article>
+                <article class="maineInfo hidden">Maine</article>
+                <article class="marylandInfo hidden">Maryland</article>
+                <article class="massachusettsInfo hidden">Massachusetts</article>
+                <article class="minnesotaInfo hidden">Minnesota</article>
+                <article class="mississippiInfo hidden">Mississippi</article>
+                <article class="missouriInfo hidden">Missouri</article>
+                <article class="montanaInfo hidden">Montana</article>
+                <article class="nebraskaInfo hidden">Nebraska</article>
+                <article class="nevadaInfo hidden">Nevada</article>
+                <article class="newhampshireInfo hidden">New Hampshire</article>
+                <article class="newjerseyInfo hidden">New Jersey</article>
+                <article class="newmexicoInfo hidden">New Mexico</article>
+                <article class="northcarolinaInfo hidden">North Carolina</article>
+                <article class="northdakotaInfo hidden">North Dakota</article>
+                <article class="oklahomaInfo hidden">Oklahoma</article>
+                <article class="oregonInfo hidden">Oregon</article>
+                <article class="rhodeislandInfo hidden">Rhode Island</article>
+                <article class="southcarolinaInfo hidden">South Carolina</article>
+                <article class="southdakotaInfo hidden">South Dakota</article>
+                <article class="tennesseeInfo hidden">Tennessee</article>
+                <article class="utahInfo hidden">Utah</article>
+                <article class="vermontInfo hidden">Vermont</article>
+                <article class="virginiaInfo hidden">Virginia</article>
+                <article class="westvirginiaInfo hidden">West Virginia</article>
+                <article class="wisconsinInfo hidden">Wisconsin</article>
+            </div>
         </main>
     </body>
 </html>
